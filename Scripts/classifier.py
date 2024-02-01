@@ -76,7 +76,7 @@ for trial in range(len(koData)):
         koData[trial] = np.concatenate((koData[trial],padding),1)
 # train on one talker, test on another <-- this one might not be possible given that we have 1 token of each sentence; if we have 7 tokens of each sentence, we're in better shape! 
 
-# at this point, i dont know how WER works, so i'm gonna do stim number and just fucking call it for now 
+# at this point, i dont know how WER works, so i'm gonna do stim number and just call it for now 
 
 testtalker = [accents[1][x] for x in range(len(accents)) if 'KO' in accents[0][x]]
 for i in testtalker:
