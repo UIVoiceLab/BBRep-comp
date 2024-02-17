@@ -1,5 +1,11 @@
 **This project uses PyTorch and lightning-flash to fine-tune ASR (wav2vec2) with non-standard accented English varieties to better understand a wider range of Englishes.**
 
+**Team:**
+-
+- Project Lead: Leo Moore
+- Project Mentor: Samantha Chiu
+- Advisory Board: Ethan Kutlu, Ph.D., Zoey Liu, Ph.D.
+
 **Goals:**
 -
 - Applied: Improving ability for ML to understand non-standard accented English can improve transcriptions, subtitles, and communication between users with different accents or varieties of English.
