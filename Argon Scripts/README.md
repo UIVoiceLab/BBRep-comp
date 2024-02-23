@@ -22,6 +22,14 @@
 - `-q UI` isn't necessary but I think it runs faster
 - A .job file is just a bash script telling Argon what script to run.
 
+## Check on your jobs
+`qstat -u hawkid`
+
+## Delete a job
+`qdel -j job-ID`
+
+- `job-ID` is the numerical ID for each job, assigned upon submitting a job, and can be also found with `qstat`
+
 ## Run a python script in interactive mode
 `python3 finetune.py`
 
